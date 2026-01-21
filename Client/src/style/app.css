@@ -1,0 +1,147 @@
+.text-gradient {
+  background: linear-gradient(90deg, #007bff, #6610f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.note-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.note-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.delete-btn {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.delete-btn:hover {
+  background-color: #c91414;
+  transform: scale(1.05);
+}
+.custom-navbar {
+  background: linear-gradient(90deg, #6a11cb, #2575fc); 
+}
+
+.navbar-brand {
+  font-size: 1.3rem !important;
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  color: #f8f9fa !important;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+.nav-link:hover {
+  color: #ffd700 !important; 
+  transform: translateY(-2px);
+}
+
+.logout-btn {
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.logout-btn:hover {
+  background-color: #ffd700;
+  color: #000 !important;
+  transform: scale(1.05);
+}
+.text-gradient {
+  background: linear-gradient(90deg, #0d6efd, #6610f2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* .card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+} */
+
+.btn {
+  transition: transform 0.2s ease;
+}
+.btn:hover {
+  transform: scale(1.05);
+}
+.note-card {
+  margin-left: 0;            
+  border-radius: 6px;        
+}
+
+
+.note-textarea {
+  resize: none;            
+  border: 1px solid #6c757d; 
+  font-size: 1rem;
+  padding: 10px;
+}
+
+
+h2 {
+  margin-left: 0;        
+}
+
+
+.btn-primary {
+  font-weight: 600;
+}
+.card {
+  border-radius: 6px;
+}
+
+.form-control {
+  border: 1px solid #6c757d;
+  font-size: 0.95rem;
+  padding: 10px;
+}
+
+.form-label {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.btn-warning {
+  font-weight: 600;
+  border-radius: 4px;
+}
+.card {
+  border-radius: 6px;
+}
+
+.form-control {
+  border: 1px solid #6c757d;
+  font-size: 0.95rem;
+  padding: 10px;
+}
+
+.form-label {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.btn-warning {
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.card {
+  border-radius: 6px;
+}
+
+.form-control {
+  border: 1px solid #6c757d;
+  font-size: 0.95rem;
+  padding: 10px;
+}
+
+.form-label {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.btn-warning {
+  font-weight: 600;
+  border-radius: 4px;
+}
